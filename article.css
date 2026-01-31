@@ -1,0 +1,75 @@
+/* ================= ARTICLE PAGE ================= */
+
+.article-page {
+  padding: 70px 8% 100px;
+}
+
+/* Split Layout */
+.article-top {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+/* Left Image */
+.article-image img {
+  width: 330px;
+  border-radius: 12px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
+}
+
+/* Right Content */
+.article-intro {
+  max-width: 600px;
+}
+
+.article-category {
+  color: #00B3FF;
+  font-weight: 600;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.article-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+  color: #F8FAFC;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.article-meta {
+  color: #94A3B8;
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.article-summary {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #CBD5E1;
+}
+
+/* ================= FULL ARTICLE TEXT ================= */
+
+.article-content {
+  max-width: 850px;
+}
+
+.article-content p {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #CBD5E1;
+  margin-bottom: 22px;
+}
+
+.article-content h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 24px;
+  color: #F8FAFC;
+  margin: 40px 0 15px;
+}

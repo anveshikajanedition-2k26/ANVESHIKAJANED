@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anveshika | AI Model Analysis</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="nw.css" />
+  <link rel="stylesheet" href="charts.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">ANVESHIKA</div>
+
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Interact with us</a>
+    </nav>
+  </header>
+
+  <main class="analysis-page">
+
+    <!-- Section 1 -->
+    <section class="analysis-section">
+      <div class="chart-box">
+        <canvas id="latencyChart"></canvas>
+      </div>
+      <div class="chart-info">
+        <h2>Model Latency Comparison</h2>
+        <p>
+          This chart compares the response latency of leading AI models.
+          Lower latency means faster real-time performance, which is critical
+          for applications like chatbots, assistants, and automation tools.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="analysis-section">
+      <div class="chart-box">
+        <canvas id="speedLatencyChart"></canvas>
+      </div>
+      <div class="chart-info">
+        <h2>Speed vs Latency Relationship</h2>
+        <p>
+          This scatter plot shows how processing speed impacts latency.
+          Models with optimized architectures achieve both high speed and
+          low latency, making them ideal for large-scale deployment.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="analysis-section">
+      <div class="chart-box">
+        <canvas id="creatorPriceChart"></canvas>
+      </div>
+      <div class="chart-info">
+        <h2>Creator vs Pricing Trends</h2>
+        <p>
+          Different AI creators price their models based on performance,
+          efficiency, and brand value. This visualization highlights
+          pricing distribution across companies.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section class="analysis-section">
+      <div class="chart-box">
+        <canvas id="performancePieChart"></canvas>
+      </div>
+      <div class="chart-info">
+        <h2>AI Performance Distribution</h2>
+        <p>
+          This chart shows the overall performance contribution of
+          various AI creators. It reflects market dominance and
+          technological leadership in AI development.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Chart.js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Your Charts Code -->
+  <script src="charts.js"></script>
+
+</body>
+</html>

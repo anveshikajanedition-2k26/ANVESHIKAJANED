@@ -1,0 +1,36 @@
+.analysis-page { padding: 80px 8%; }
+
+.analysis-section {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.chart-box {
+  flex: 1;
+  background: rgba(10, 0, 20, 0.7);
+  border: 1px solid rgba(123, 97, 255, 0.25);
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+.chart-info { flex: 1; }
+
+.chart-info h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 26px;
+  color: #00B3FF;
+  margin-bottom: 15px;
+}
+
+.chart-info p {
+  color: #CBD5E1;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .analysis-section { flex-direction: column; text-align: center; }
+}
