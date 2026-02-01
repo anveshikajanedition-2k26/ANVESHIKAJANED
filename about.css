@@ -1,0 +1,42 @@
+.about {
+  padding: 80px 20px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 900px;
+  width: 100%;
+  color: #CBD5E1;
+  line-height: 1.8;
+}
+
+.about h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 38px;
+  color: #F8FAFC;
+  margin-bottom: 25px;
+}
+
+.about h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 22px;
+  color: #00B3FF;
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+
+.about p {
+  margin-bottom: 18px;
+}
+
+.leaders li,
+.edition-list li {
+  margin-bottom: 8px;
+}
+
+.signature {
+  margin-top: 40px;
+  font-style: italic;
+  color: #94A3B8;
+}
