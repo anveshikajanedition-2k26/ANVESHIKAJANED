@@ -12,47 +12,64 @@
   <link rel="stylesheet" href="nw.css" />
 </head>
 <body>
-  
-  <section class="content-section">
+<section class="content-section">
   <h1 class="section-title">🎤 Student Voices</h1>
   <p>Share your thoughts and experiences with us! Responses are moderated and no personal data is collected.</p>
 
-  <!-- Q&A Prompt Cards -->
   <div class="card-container">
+
+    <!-- Card 1 -->
     <div class="card">
       <h2>One thing you love about our college?</h2>
       <p>Tell us what makes this place special for you.</p>
-      <a href="https://forms.gle/YOUR_FORM_LINK" target="_blank" class="card-btn">Respond</a>
+
+      <form action="https://formspree.io/f/mdadkbww" method="POST">
+        <input type="hidden" name="question" value="One thing you love about our college?">
+        <textarea name="response" placeholder="Write your answer..." required></textarea>
+        <button type="submit" class="card-btn">Submit</button>
+      </form>
     </div>
 
+    <!-- Card 2 -->
     <div class="card">
       <h2>Your most memorable campus moment?</h2>
       <p>Share the story that still makes you smile.</p>
-      <a href="https://forms.gle/YOUR_FORM_LINK" target="_blank" class="card-btn">Respond</a>
+
+      <form action="https://formspree.io/f/mdadkbww" method="POST">
+        <input type="hidden" name="question" value="Your most memorable campus moment?">
+        <textarea name="response" placeholder="Write your answer..." required></textarea>
+        <button type="submit" class="card-btn">Submit</button>
+      </form>
     </div>
 
+    <!-- Card 3 -->
     <div class="card">
       <h2>If you could change one thing here?</h2>
       <p>What’s one improvement you’d love to see?</p>
-      <a href="https://forms.gle/YOUR_FORM_LINK" target="_blank" class="card-btn">Respond</a>
+
+      <form action="https://formspree.io/f/mdadkbww" method="POST">
+        <input type="hidden" name="question" value="If you could change one thing here?">
+        <textarea name="response" placeholder="Write your answer..." required></textarea>
+        <button type="submit" class="card-btn">Submit</button>
+      </form>
     </div>
 
+    <!-- Card 4 -->
     <div class="card">
       <h2>Advice to juniors?</h2>
       <p>Drop a tip or wisdom for the next batch.</p>
-      <a href="https://forms.gle/YOUR_FORM_LINK" target="_blank" class="card-btn">Respond</a>
+
+      <form action="https://formspree.io/f/mdadkbww" method="POST">
+        <input type="hidden" name="question" value="Advice to juniors?">
+        <textarea name="response" placeholder="Write your answer..." required></textarea>
+        <button type="submit" class="card-btn">Submit</button>
+      </form>
     </div>
+
   </div>
 
-  <!-- CTA Buttons -->
-  <div class="cta" style="margin-top:50px;">
-    <a href="https://forms.gle/YOUR_FORM_LINK" target="_blank" class="hero-btn">Share Your Thoughts</a>
-    <a href="https://forms.gle/YOUR_FORM_LINK" target="_blank" class="hero-btn">Participate Now</a>
-    <a href="https://forms.gle/YOUR_FORM_LINK" target="_blank" class="hero-btn">Have Something to Say?</a>
-  </div>
-
-  <!-- Safe Note -->
   <p style="margin-top:20px; font-size:13px; color:#94A3B8;">
-     Please give moderate responses | No personal data will be collected | Educational & engagement purpose only
+    ✅ Responses are moderated | No personal data collected | Educational & engagement purpose only
   </p>
 </section>
+</body>
